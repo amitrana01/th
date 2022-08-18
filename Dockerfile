@@ -2,7 +2,8 @@
 # Author: Roberto Rodriguez (@Cyb3rWard0g)
 # License: GPL-3.0
 
-FROM cyb3rward0g/jupyter-pyspark:0.0.4
+#FROM cyb3rward0g/jupyter-pyspark:0.0.4
+FROM jupyter/pyspark-notebook
 LABEL maintainer="Roberto Rodriguez @Cyb3rWard0g"
 LABEL description="Dockerfile ThreatHunter Playbook Project."
 
